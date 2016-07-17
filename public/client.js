@@ -28,8 +28,6 @@ socket.on('voteCount', function(votes) {
     console.log(votes[letter]);
     var voteTarget = document.getElementById('letter-' + letter);
 	  voteTarget.innerText = 'Votes for ' + letter + ' : ' + votes[letter];
-    // var voteNumber = document.getElementsByClassName('badge');
-    // voteNumber.innerText = votes[letter];
   }
 
   var yourVote = document.getElementById('your-vote');

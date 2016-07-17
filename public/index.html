@@ -9,31 +9,37 @@
     <div class="container container-custom">
 
       <h1 class="title">Vote for your favorite letter ... </h1>
-      <p class="sub-title">... and see how other connected users vote.</p><br>
+      <p class="sub-title">... and see how other connected users vote.</p>
+      <br>
 
       <div id="status-message"></div>
       <div id="connection-count">Number of connected users: </div>
       <br>
-      <div>Cast your vote here:</div><br>
+
+      <div>Cast your vote here:</div>
+      <br>
+
       <div id="choices">
         <button class="btn btn-warning">A</button>
         <button class="btn btn-warning">B</button>
         <button class="btn btn-warning">C</button>
         <button class="btn btn-warning">D</button>
-      </div><br>
+      </div>
+      <br>
 
-      <div id="your-vote"></div><br>
+      <div id="your-vote"></div>
+      <br>
+
       <ul class="list-group" id="vote-count">
         <p>Total votes in real time</p>
-
         <li class="list-group-item" id="letter-A">Votes for A</li>
         <li class="list-group-item" id="letter-B">Votes for B</li>
         <li class="list-group-item" id="letter-C">Votes for C</li>
         <li class="list-group-item" id="letter-D">Votes for D</li>
       </ul>
+    </div>
 
       <!-- Make sure your JS is at the bottom of the body! -->
-    </div>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
